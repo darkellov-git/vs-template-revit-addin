@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yt28Nh9EaRdHCkENsa7VNo5KNGCJcDAp7WDpTv3X8w07xkZ3T0hqLCT2VQfkiWlJV+WE6cSy7BptohKR0iBY7g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\Source\\Repos\\vs-template-revit-addin\\src\\RevitTemplate.UI\\RevitTemplate.UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\autodesk.revit.sdk\\2023.0.0.2001\\autodesk.revit.sdk.2023.0.0.2001.nupkg.sha512"
+  ],
+  "logs": []
+}
