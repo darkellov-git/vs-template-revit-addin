@@ -1,0 +1,253 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "Autodesk.Revit.SDK/2023.0.0.2001": {
+        "type": "package",
+        "compile": {
+          "ref/net48/AdWindows.dll": {},
+          "ref/net48/RevitAPI.dll": {
+            "related": ".xml"
+          },
+          "ref/net48/RevitAPIBrowserUtils.dll": {},
+          "ref/net48/RevitAPIFoundation.dll": {},
+          "ref/net48/RevitAPIIFC.dll": {
+            "related": ".xml"
+          },
+          "ref/net48/RevitAPILink.dll": {},
+          "ref/net48/RevitAPIMacros.dll": {
+            "related": ".xml"
+          },
+          "ref/net48/RevitAPIMacrosInterop.dll": {},
+          "ref/net48/RevitAPIMacrosInteropAPI.dll": {},
+          "ref/net48/RevitAPISteel.dll": {},
+          "ref/net48/RevitAPIUI.dll": {
+            "related": ".xml"
+          },
+          "ref/net48/RevitAPIUILink.dll": {},
+          "ref/net48/RevitAPIUIMacros.dll": {
+            "related": ".xml"
+          },
+          "ref/net48/RevitAPIUIMacrosInterop.dll": {},
+          "ref/net48/RevitAPIUIMacrosInteropAPI.dll": {},
+          "ref/net48/RevitAddInUtility.dll": {
+            "related": ".xml"
+          },
+          "ref/net48/RevitDB.dll": {},
+          "ref/net48/RevitDBAPI.dll": {},
+          "ref/net48/RevitDBCore.dll": {},
+          "ref/net48/RevitDBCoreAPI.dll": {},
+          "ref/net48/RevitMFC.dll": {},
+          "ref/net48/RevitMFCAPI.dll": {},
+          "ref/net48/RevitMaterialUI3.dll": {},
+          "ref/net48/RevitNET.dll": {},
+          "ref/net48/RevitUI.dll": {},
+          "ref/net48/RevitUIAPI.dll": {}
+        }
+      },
+      "Ninject/3.3.6": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Ninject.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Ninject.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "RevitTemplate.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RevitTemplate.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RevitTemplate.Core.dll": {}
+        }
+      },
+      "RevitTemplate.UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "RevitTemplate.Core": "1.0.0",
+          "RevitTemplate.Web": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RevitTemplate.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RevitTemplate.UI.dll": {}
+        }
+      },
+      "RevitTemplate.Web/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RevitTemplate.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RevitTemplate.Web.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Autodesk.Revit.SDK/2023.0.0.2001": {
+      "sha512": "dCAbylhSVwIjhsyeAla8N+9KG+lm/67ZJj9+0gIgRgWSbUeZ199dYzw9+guXDp/HDmawtoLIDpJfNwShKiVauQ==",
+      "type": "package",
+      "path": "autodesk.revit.sdk/2023.0.0.2001",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "Revit.png",
+        "autodesk.revit.sdk.2023.0.0.2001.nupkg.sha512",
+        "autodesk.revit.sdk.nuspec",
+        "ref/net48/AdWindows.dll",
+        "ref/net48/RevitAPI.dll",
+        "ref/net48/RevitAPI.xml",
+        "ref/net48/RevitAPIBrowserUtils.dll",
+        "ref/net48/RevitAPIFoundation.dll",
+        "ref/net48/RevitAPIIFC.dll",
+        "ref/net48/RevitAPIIFC.xml",
+        "ref/net48/RevitAPILink.dll",
+        "ref/net48/RevitAPIMacros.dll",
+        "ref/net48/RevitAPIMacros.xml",
+        "ref/net48/RevitAPIMacrosInterop.dll",
+        "ref/net48/RevitAPIMacrosInteropAPI.dll",
+        "ref/net48/RevitAPISteel.dll",
+        "ref/net48/RevitAPIUI.dll",
+        "ref/net48/RevitAPIUI.xml",
+        "ref/net48/RevitAPIUILink.dll",
+        "ref/net48/RevitAPIUIMacros.dll",
+        "ref/net48/RevitAPIUIMacros.xml",
+        "ref/net48/RevitAPIUIMacrosInterop.dll",
+        "ref/net48/RevitAPIUIMacrosInteropAPI.dll",
+        "ref/net48/RevitAddInUtility.dll",
+        "ref/net48/RevitAddInUtility.xml",
+        "ref/net48/RevitDB.dll",
+        "ref/net48/RevitDBAPI.dll",
+        "ref/net48/RevitDBCore.dll",
+        "ref/net48/RevitDBCoreAPI.dll",
+        "ref/net48/RevitMFC.dll",
+        "ref/net48/RevitMFCAPI.dll",
+        "ref/net48/RevitMaterialUI3.dll",
+        "ref/net48/RevitNET.dll",
+        "ref/net48/RevitUI.dll",
+        "ref/net48/RevitUIAPI.dll"
+      ]
+    },
+    "Ninject/3.3.6": {
+      "sha512": "93avazUpbRL3IdwvTQF0DKSQB26TeqwMGhZsQNxi/RLSYewhxBkdGDhwWe9DAIRF1+zKDVMv3XkBk8HobKU6wA==",
+      "type": "package",
+      "path": "ninject/3.3.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Ninject.dll",
+        "lib/net45/Ninject.xml",
+        "lib/netstandard2.0/Ninject.dll",
+        "lib/netstandard2.0/Ninject.xml",
+        "ninject.3.3.6.nupkg.sha512",
+        "ninject.nuspec"
+      ]
+    },
+    "RevitTemplate.Core/1.0.0": {
+      "type": "project",
+      "path": "../RevitTemplate.Core/RevitTemplate.Core.csproj",
+      "msbuildProject": "../RevitTemplate.Core/RevitTemplate.Core.csproj"
+    },
+    "RevitTemplate.UI/1.0.0": {
+      "type": "project",
+      "path": "../RevitTemplate.UI/RevitTemplate.UI.csproj",
+      "msbuildProject": "../RevitTemplate.UI/RevitTemplate.UI.csproj"
+    },
+    "RevitTemplate.Web/1.0.0": {
+      "type": "project",
+      "path": "../RevitTemplate.Web/RevitTemplate.Web.csproj",
+      "msbuildProject": "../RevitTemplate.Web/RevitTemplate.Web.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "Autodesk.Revit.SDK >= 2023.*",
+      "Ninject >= 3.3.6",
+      "RevitTemplate.Core >= 1.0.0",
+      "RevitTemplate.UI >= 1.0.0",
+      "RevitTemplate.Web >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\vs-template-revit-addin\\src\\RevitTemplate.Main\\RevitTemplate.Main.csproj",
+      "projectName": "RevitTemplate.Main",
+      "projectPath": "C:\\Users\\User\\Source\\Repos\\vs-template-revit-addin\\src\\RevitTemplate.Main\\RevitTemplate.Main.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Source\\Repos\\vs-template-revit-addin\\src\\RevitTemplate.Main\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\User\\Source\\Repos\\vs-template-revit-addin\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "projectReferences": {
+            "C:\\Users\\User\\Source\\Repos\\vs-template-revit-addin\\src\\RevitTemplate.Core\\RevitTemplate.Core.csproj": {
+              "projectPath": "C:\\Users\\User\\Source\\Repos\\vs-template-revit-addin\\src\\RevitTemplate.Core\\RevitTemplate.Core.csproj"
+            },
+            "C:\\Users\\User\\Source\\Repos\\vs-template-revit-addin\\src\\RevitTemplate.UI\\RevitTemplate.UI.csproj": {
+              "projectPath": "C:\\Users\\User\\Source\\Repos\\vs-template-revit-addin\\src\\RevitTemplate.UI\\RevitTemplate.UI.csproj"
+            },
+            "C:\\Users\\User\\Source\\Repos\\vs-template-revit-addin\\src\\RevitTemplate.Web\\RevitTemplate.Web.csproj": {
+              "projectPath": "C:\\Users\\User\\Source\\Repos\\vs-template-revit-addin\\src\\RevitTemplate.Web\\RevitTemplate.Web.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "targetAlias": "net48",
+        "dependencies": {
+          "Autodesk.Revit.SDK": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2023.*, )"
+          },
+          "Ninject": {
+            "target": "Package",
+            "version": "[3.3.6, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
